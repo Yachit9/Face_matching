@@ -1,0 +1,119 @@
+[2024-08-10 23:07:12,387: INFO: 02_feature_extractor]: >>>>> stage_02 started
+[2024-08-10 23:07:12,387: ERROR: 02_feature_extractor]: 'input_shape'
+Traceback (most recent call last):
+  File "src/02_feature_extractor.py", line 86, in <module>
+    feature_extractor(config_path = parsed_args.config, params_path= parsed_args.params)
+  File "src/02_feature_extractor.py", line 55, in feature_extractor
+    input_shapes = params['base']['input_shape']
+KeyError: 'input_shape'
+[2024-08-10 23:09:05,101: INFO: 02_feature_extractor]: >>>>> stage_02 started
+[2024-08-10 23:09:05,106: INFO: all_utils]: Directory  is created at artifacts\extracted_features
+[2024-08-10 23:09:05,113: ERROR: 02_feature_extractor]: [Errno 2] No such file or directory: 'data\\Aamir_Khan\\Aamir_Khan'
+Traceback (most recent call last):
+  File "src/02_feature_extractor.py", line 86, in <module>
+    feature_extractor(config_path = parsed_args.config, params_path= parsed_args.params)
+  File "src/02_feature_extractor.py", line 71, in feature_extractor
+    features.append(extractor(file,model))
+  File "src/02_feature_extractor.py", line 28, in extractor
+    img = image.load_img(img_path,target_size=(224,224))
+  File "d:\ml_work\mlproject3\venv\lib\site-packages\tensorflow\python\keras\preprocessing\image.py", line 301, in load_img
+    target_size=target_size, interpolation=interpolation)
+  File "d:\ml_work\mlproject3\venv\lib\site-packages\keras_preprocessing\image\utils.py", line 113, in load_img
+    with open(path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'data\\Aamir_Khan\\Aamir_Khan'
+[2024-08-10 23:16:46,653: INFO: 02_feature_extractor]: >>>>> stage_02 started
+[2024-08-10 23:16:46,666: INFO: all_utils]: Directory  is created at artifacts\extracted_features
+[2024-08-10 23:16:46,669: ERROR: 02_feature_extractor]: [Errno 2] No such file or directory: 'data\\Aamir_Khan\\Aamir_Khan'
+Traceback (most recent call last):
+  File "src/02_feature_extractor.py", line 86, in <module>
+    feature_extractor(config_path = parsed_args.config, params_path= parsed_args.params)
+  File "src/02_feature_extractor.py", line 71, in feature_extractor
+    features.append(extractor(file,model))
+  File "src/02_feature_extractor.py", line 28, in extractor
+    img = image.load_img(img_path,target_size=(224,224))
+  File "d:\ml_work\mlproject3\venv\lib\site-packages\tensorflow\python\keras\preprocessing\image.py", line 301, in load_img
+    target_size=target_size, interpolation=interpolation)
+  File "d:\ml_work\mlproject3\venv\lib\site-packages\keras_preprocessing\image\utils.py", line 113, in load_img
+    with open(path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'data\\Aamir_Khan\\Aamir_Khan'
+[2024-08-10 23:17:06,522: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2024-08-10 23:17:06,524: INFO: all_utils]: Directory  is created at artifacts\pickle_format_data
+[2024-08-10 23:17:06,551: INFO: 01_generate_img_pkl]: Total actors are :100
+[2024-08-10 23:17:06,552: INFO: 01_generate_img_pkl]: total actors image:10000
+[2024-08-10 23:17:06,555: INFO: 01_generate_img_pkl]: satge_01_ completed
+[2024-08-10 23:17:15,215: INFO: 02_feature_extractor]: >>>>> stage_02 started
+[2024-08-10 23:17:15,262: INFO: all_utils]: Directory  is created at artifacts\extracted_features
+[2024-08-10 23:17:15,264: ERROR: 02_feature_extractor]: [Errno 2] No such file or directory: 'data\\Aamir_Khan\\Aamir_Khan'
+Traceback (most recent call last):
+  File "src/02_feature_extractor.py", line 86, in <module>
+    feature_extractor(config_path = parsed_args.config, params_path= parsed_args.params)
+  File "src/02_feature_extractor.py", line 71, in feature_extractor
+    features.append(extractor(file,model))
+  File "src/02_feature_extractor.py", line 28, in extractor
+    img = image.load_img(img_path,target_size=(224,224))
+  File "d:\ml_work\mlproject3\venv\lib\site-packages\tensorflow\python\keras\preprocessing\image.py", line 301, in load_img
+    target_size=target_size, interpolation=interpolation)
+  File "d:\ml_work\mlproject3\venv\lib\site-packages\keras_preprocessing\image\utils.py", line 113, in load_img
+    with open(path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'data\\Aamir_Khan\\Aamir_Khan'
+[2024-08-10 23:23:02,225: INFO: 02_feature_extractor]: >>>>> stage_02 started
+[2024-08-10 23:23:02,229: INFO: all_utils]: Directory  is created at artifacts\extracted_features
+[2024-08-10 23:23:02,232: ERROR: 02_feature_extractor]: [Errno 2] No such file or directory: 'data\\Aamir_Khan\\Aamir_Khan'
+Traceback (most recent call last):
+  File "src/02_feature_extractor.py", line 87, in <module>
+    feature_extractor(config_path = parsed_args.config, params_path= parsed_args.params)
+  File "src/02_feature_extractor.py", line 72, in feature_extractor
+    features.append(extractor(file,model))
+  File "src/02_feature_extractor.py", line 28, in extractor
+    img = image.load_img(img_path,target_size=(224,224))
+  File "d:\ml_work\mlproject3\venv\lib\site-packages\tensorflow\python\keras\preprocessing\image.py", line 301, in load_img
+    target_size=target_size, interpolation=interpolation)
+  File "d:\ml_work\mlproject3\venv\lib\site-packages\keras_preprocessing\image\utils.py", line 113, in load_img
+    with open(path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'data\\Aamir_Khan\\Aamir_Khan'
+[2024-08-10 23:28:21,604: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2024-08-10 23:28:21,606: INFO: all_utils]: Directory  is created at artifacts\pickle_format_data
+[2024-08-10 23:28:22,581: INFO: 01_generate_img_pkl]: Total actors are :100
+[2024-08-10 23:28:22,581: INFO: 01_generate_img_pkl]: total actors image:0
+[2024-08-10 23:28:22,582: INFO: 01_generate_img_pkl]: satge_01_ completed
+[2024-08-10 23:29:09,205: INFO: 02_feature_extractor]: >>>>> stage_02 started
+[2024-08-10 23:29:09,225: INFO: all_utils]: Directory  is created at artifacts\extracted_features
+[2024-08-10 23:29:09,242: INFO: 02_feature_extractor]: stage_02 completed!>>>>>
+[2024-08-11 15:33:32,639: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2024-08-11 15:33:32,639: INFO: all_utils]: Directory is created at artifacts\pickle_format_data
+[2024-08-11 15:33:32,670: INFO: 01_generate_img_pkl]: Total actors are :100
+[2024-08-11 15:33:32,670: INFO: 01_generate_img_pkl]: total actors image:10000
+[2024-08-11 15:33:32,670: INFO: 01_generate_img_pkl]: satge_01_ completed
+[2024-08-11 15:37:59,827: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2024-08-11 15:37:59,827: INFO: all_utils]: Directory is created at artifacts\pickle_format_data
+[2024-08-11 15:37:59,868: INFO: 01_generate_img_pkl]: Total actors are :100
+[2024-08-11 15:37:59,868: INFO: 01_generate_img_pkl]: total actors image:10000
+[2024-08-11 15:37:59,868: INFO: 01_generate_img_pkl]: satge_01_ completed
+[2024-08-11 15:38:18,089: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2024-08-11 15:38:18,089: INFO: all_utils]: Directory is created at artifacts\pickle_format_data
+[2024-08-11 15:38:18,120: INFO: 01_generate_img_pkl]: Total actors are :100
+[2024-08-11 15:38:18,120: INFO: 01_generate_img_pkl]: total actors image:10000
+[2024-08-11 15:38:18,120: INFO: 01_generate_img_pkl]: satge_01_ completed
+[2024-08-12 17:09:51,511: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2024-08-12 17:09:51,511: INFO: all_utils]: Directory is created at artifacts\pickle_format_data
+[2024-08-12 17:09:51,542: INFO: 01_generate_img_pkl]: Total actors are :100
+[2024-08-12 17:09:51,542: INFO: 01_generate_img_pkl]: total actors image:10000
+[2024-08-12 17:09:51,552: INFO: 01_generate_img_pkl]: satge_01_ completed
+[2024-08-12 17:19:43,212: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2024-08-12 17:19:43,212: INFO: all_utils]: Directory is created at artifacts\pickle_format_data
+[2024-08-12 17:19:43,244: INFO: 01_generate_img_pkl]: Total actors are :100
+[2024-08-12 17:19:43,244: INFO: 01_generate_img_pkl]: total actors image:10000
+[2024-08-12 17:19:43,244: INFO: 01_generate_img_pkl]: satge_01_ completed
+[2024-08-12 17:39:43,421: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2024-08-12 17:39:43,424: INFO: all_utils]: Directory is created at artifacts\pickle_data
+[2024-08-12 17:39:43,451: INFO: 01_generate_img_pkl]: Total actors are :100
+[2024-08-12 17:39:43,451: INFO: 01_generate_img_pkl]: total actors image:10000
+[2024-08-12 17:39:43,454: INFO: 01_generate_img_pkl]: satge_01_ completed
+[2024-08-12 17:52:44,234: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2024-08-12 17:52:44,261: INFO: all_utils]: Directory is created at artifacts\pickle_format_data
+[2024-08-12 17:52:44,274: INFO: 01_generate_img_pkl]: Total actress are: 100
+[2024-08-12 17:52:44,274: INFO: 01_generate_img_pkl]: Total actress images: 8664
+[2024-08-12 17:52:44,274: INFO: 01_generate_img_pkl]: stage_01 completed!>>>>>
+[2024-08-12 17:52:46,454: INFO: 02_feature_extractor]: >>>>> stage_02 started
+[2024-08-12 17:52:47,367: INFO: all_utils]: Directory is created at artifacts\extracted_features
+[2024-08-12 18:25:44,322: INFO: 02_feature_extractor]: stage_02 completed!>>>>>
